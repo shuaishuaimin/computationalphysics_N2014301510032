@@ -27,6 +27,6 @@ a = "".join(l) <br/>
 
 第二个在点阵上作图 旋转，鉴于水平有限不会做旋转的， 自己做了时针转动<br/>
 
-[火柴人](https://github.com/shuaishuaimin/computationalphysics_N2014301510032/new/master)
+[火柴人](https://github.com/shuaishuaimin/computationalphysics_N2014301510032/blob/master/huochairen.py)
 
 致谢卢江伟，彭辰铭同学的帮助<br/>
