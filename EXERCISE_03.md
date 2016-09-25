@@ -22,3 +22,4 @@ l = list(a) <br/>
 
 a = "".join(l) <br/>
 当然有更多的方法解决这个问题，除了画的东西，方法上也希望各位能脑洞大开！<br/>
+这是我的CYM嘿嘿嘿<https://github.com/shuaishuaimin/computationalphysics_N2014301510032/blob/master/qinpin.py>
