@@ -9,5 +9,5 @@ print("#   ") <br/>
 print("#   ") <br/>
 print(" ###") <br/>
 ##核对自己在2016年秋季计算物理课程学生列表中自己的分班和作业链接是否正确，有问题下次上课一并更正
-[这是我的名字]（https://github.com/shuaishuaimin/computationalphysics_N2014301510032/blob/master/myname.py）
+[这是我的名字](https://github.com/shuaishuaimin/computationalphysics_N2014301510032/blob/master/myname.py)
 
