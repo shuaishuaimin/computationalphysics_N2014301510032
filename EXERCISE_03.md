@@ -25,7 +25,7 @@ a = "".join(l) <br/>
 [这是我的CYM嘿嘿嘿](https://github.com/shuaishuaimin/computationalphysics_N2014301510032/blob/master/qinpin.py)
 运用cmd运行这个py文件即可<br/>
 
-第二个在点阵上作图 旋转，鉴于水平有限不会做旋转的， 自己做了时针转动<br/>
+第二个在点阵上作图 旋转，鉴于水平有限不会做旋转的， 自己做了火柴人<br/>
 
 [火柴人](https://github.com/shuaishuaimin/computationalphysics_N2014301510032/blob/master/huochairen.py)
 
