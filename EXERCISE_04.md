@@ -27,12 +27,12 @@ where for simplicity we have assumed that the two types of decay are characteriz
  （1.2） 
 ##再由式(1.1)得<br/>
 ![](http://latex.codecogs.com/gif.latex?N%28t&plus;%5CDelta%20t%29-N%28t%29%5Capprox%20N%28t%29-%5Cfrac%7BN%28t%29%7D%7B%5Ctau%7D%5Ccdot%20%5CDelta%20t)<br/>
-题目解析<br/>
+##题目解析<br/>
 
-由上面分析知 令<br/>
-由（1.2）知  <br/>
-由（1.0）知  <br/>
-同理可知  <br/>
+由上面分析知 令![](http://latex.codecogs.com/gif.latex?Na&plus;Nb%3DN)<br/>
+由（1.2）知 ![](http://latex.codecogs.com/gif.latex?Na%28t&plus;%5CDelta%20t%29%3DNa%28t%29&plus;%5Cfrac%7B%5Cmathrm%7Bd%7D%20Na%7D%7B%5Cmathrm%7Bd%7D%20t%7D%5Ccdot%20%5CDelta%20t) <br/>
+由（1.0）知 ![]() <br/>
+同理可知 ![]() <br/>
 
 ##以下是在python中的代码模拟
 [程序](https://github.com/shuaishuaimin/computationalphysics_N2014301510032/blob/master/chengxv.py)
