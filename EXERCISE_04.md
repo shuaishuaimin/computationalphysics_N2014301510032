@@ -24,8 +24,7 @@ where for simplicity we have assumed that the two types of decay are characteriz
  
  （1.2） 
 ##再由式(1.1)得<br/>
-
-
+![](http://latex.codecogs.com/gif.latex?N%28t&plus;%5CDelta%20t%29-N%28t%29%5Capprox%20N%28t%29-%5Cfrac%7B%5Cmathrm%7Bd%7D%20N%7D%7B%5Cmathrm%7Bd%7D%20t%7D%5Ccdot%20%5CDelta%20t)<br/>
 题目解析<br/>
 
 由上面分析知 令<br/>
