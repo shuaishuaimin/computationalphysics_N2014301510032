@@ -19,6 +19,7 @@ where for simplicity we have assumed that the two types of decay are characteriz
 ![](http://latex.codecogs.com/gif.latex?N%28%5CDelta%20t%29%3DN%280%29&plus;%5Cfrac%7BdN%7D%7Bdt%7D%5Ccdot%5CDelta%20t&plus;%5Cfrac%7B1%7D%7B2%7D%5Ccdot%5Cfrac%7Bd%5E2N%7D%7Bdt%5E2%7D%5CDelta%20t&plus;%5Ccdots)<br/> 
  
 取前两项得<br/>
+![](http://latex.codecogs.com/gif.latex?N%28%5CDelta%20t%29%5Capprox%20N%280%29&plus;%5Cfrac%7B%5Cmathrm%7Bd%7D%20N%7D%7B%5Cmathrm%7Bd%7D%20t%7D%5Ccdot%20%5CDelta%20t)<br/>
  
 又有 <br/>
  ![](http://latex.codecogs.com/gif.latex?N%28t&plus;%5CDelta%20t%29-N%28t%29%5Capprox%20N%28t%29-%5Cfrac%7B%5Cmathrm%7Bd%7D%20N%7D%7B%5Cmathrm%7Bd%7D%20t%7D%5Ccdot%20%5CDelta%20t)<br/>
