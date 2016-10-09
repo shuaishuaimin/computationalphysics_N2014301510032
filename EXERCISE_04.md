@@ -30,3 +30,4 @@ where for simplicity we have assumed that the two types of decay are characteriz
 同理可知  <br/>
 
 ##以下是在python中的代码模拟
+[程序](https://github.com/shuaishuaimin/computationalphysics_N2014301510032/blob/master/chengxv.py)
