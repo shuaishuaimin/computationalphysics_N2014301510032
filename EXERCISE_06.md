@@ -7,3 +7,5 @@
 
 ##以下是作业2.10的程序
 [程序](https://github.com/shuaishuaimin/computationalphysics_N2014301510032/blob/master/daima.py)<br/>
+
+###升级版感觉太过复杂TAT，请谅解无知的本宝宝
