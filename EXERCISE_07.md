@@ -50,6 +50,23 @@ Repeat the previous problem, but give the two pendulums slightly different dampi
 
 ###代码如下所示
 
-{代码}(https://github.com/shuaishuaimin/computationalphysics_N2014301510032/blob/master/chengxv21.py)
+[代码](https://github.com/shuaishuaimin/computationalphysics_N2014301510032/blob/master/chengxv21.py)
+
+##得到的图像
 
 ![](https://github.com/Damonphysics/computationalphysics_N2014301020007/blob/master/figure_1-2.png?raw=true)
+##下面考虑3.12题
+
+###先考虑在一般情况下任意时间的图像，代码如下
+
+[代码2]（https://github.com/shuaishuaimin/computationalphysics_N2014301510032/blob/master/chengxv14.py）
+
+###得到的图像
+
+![](https://github.com/Damonphysics/computationalphysics_N2014301020007/blob/master/figure_1-4.png?raw=true)
+
+###当FD=0.5时，庞加莱界面上大致是一封闭曲线，可以认为运动是准周期的;而当FD=1.2时，庞加莱截面上是一些成片的具有分形结构的密集点，运动变为混沌的
+
+###考虑在特定的时间点附近的omega和theta的分布情况，代码如下
+
+[代码3]（）
