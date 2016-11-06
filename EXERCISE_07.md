@@ -4,7 +4,7 @@
 
 In constructing the Poincaré section in Figure 3.9 we plotted points only at times that were in phase with the drive force; that is, at times , where  is an integer. At these values of  the driving force passed through zero [see(3.18)]. However, we could jusi as easily have chosen to make the plot at times corresponding to a maximum of the drive force, or at times out-of-phase with this force, etc. Construct the Poincaré sections for these cases and compare them with Figure 3.9.
 
-#Exercise 3.13
+##Exercise 3.13
 
 Write a program to calculate and compare the behavior of two, nearly identical pendulums. Use it to calculate the divergence of two nearby trajectories in the chaotic regime, as in Figure 3.7, and make a qualitative estimate of the corresponding Lyapunov exponent from the slope of a plot of  as a function of  .
 
@@ -15,7 +15,7 @@ Repeat the previous problem, but give the two pendulums slightly different dampi
 ###1. 理论推导
 
         过去我们已经学习了一些单摆的基础知识，在无阻尼和驱动力且摆角很小的情况下单摆的动力学方程近似为
-
+        ![](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cmathrm%7Bd%7D%5E2%20%5Ctheta%20%7D%7B%5Cmathrm%7Bd%7D%20t%5E2%7D%3D-%5Cfrac%7Bg%7D%7Bl%7D%5Ccdot%20%5Ctheta)
 
         显然， 这种情况下单摆近似地做简谐运动，有
 
