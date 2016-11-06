@@ -58,8 +58,7 @@ Repeat the previous problem, but give the two pendulums slightly different dampi
 ##下面考虑3.12题
 
 ###先考虑在一般情况下任意时间的图像，代码如下
-
-[代码2]（https://github.com/shuaishuaimin/computationalphysics_N2014301510032/blob/master/chengxv14.py）
+[代码2](https://github.com/shuaishuaimin/computationalphysics_N2014301510032/blob/master/chengxv14.py)
 
 ###得到的图像
 
@@ -69,4 +68,13 @@ Repeat the previous problem, but give the two pendulums slightly different dampi
 
 ###考虑在特定的时间点附近的omega和theta的分布情况，代码如下
 
-[代码3]（）
+[代码3](https://github.com/shuaishuaimin/computationalphysics_N2014301510032/blob/master/chengxv16.py)
+
+##图像t如下
+![](https://github.com/Damonphysics/computationalphysics_N2014301020007/blob/master/figure_1-3.png?raw=true)
+
+###我们可以观察到奇异 吸引子
+
+####混沌并非等同于复杂，混沌现象普遍存在于大量非线性系统中，结构简单如单摆也可能做混沌运动；存在混沌现象动力学系统对初值十分敏感，简单原因可导致复杂后果；混沌理论与分形几何学有着密不可分的联系，后者是研究前者的有力工具。
+
+致谢倪世杰，彭辰铭同学的代码帮助
