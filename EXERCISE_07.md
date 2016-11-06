@@ -49,3 +49,5 @@ Repeat the previous problem, but give the two pendulums slightly different dampi
 注意，若不在区间内，我们须通过加或减使其落入区间内。
 
 ###代码如下所示
+
+[代码]（https://github.com/shuaishuaimin/computationalphysics_N2014301510032/blob/master/chengxv21.py）
