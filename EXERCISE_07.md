@@ -18,13 +18,14 @@ Repeat the previous problem, but give the two pendulums slightly different dampi
 ![](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cmathrm%7Bd%7D%5E2%20%5Ctheta%20%7D%7B%5Cmathrm%7Bd%7D%20t%5E2%7D%3D-%5Cfrac%7Bg%7D%7Bl%7D%5Ccdot%20%5Ctheta)
 
         显然， 这种情况下单摆近似地做简谐运动，有
-
+        
+   ![](http://latex.codecogs.com/gif.latex?%5Ctheta%20%3D%5Ctheta%20o%20sin%28%5COmega%20t&plus;%5Cphi%20%29)
 
         如果我们考虑阻尼，单摆的动力学方程会变为
-
+  ![](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cmathrm%7Bd%7D%5E2%20%5Ctheta%20%7D%7B%5Cmathrm%7Bd%7D%20t%5E2%7D%3D-%5Cfrac%7Bg%7D%7Bl%7D%5Ctheta%20-q%5Cfrac%7B%5Cmathrm%7Bd%7D%20%5Ctheta%20%7D%7B%5Cmathrm%7Bd%7D%20t%7D)
 
         这时，单摆将会做阻尼振动，有
-
+  ![](http://latex.codecogs.com/gif.latex?%5Ctheta%20%28t%29%3D%20%7B%5Ctheta%20_%7B0%7D%7D%5Ccdot%20e%5E%7B-%5Cfrac%7Bqt%7D%7B2%7D%7Dsin%28%20%5Csqrt%7B%5COmega%20%5E%7B2%7D-%5Cfrac%7Bq%5E%7B2%7D%7D%7B4%7D%7Dt&plus;%5Cphi%20%29)
 
         此时单摆将做振幅逐渐减小的周期性阻尼振动，经过较长时间后，振幅几乎为零，可以认为振动停止。然而，如果有驱动力，情况又将大不一样，单摆的运动学方程变为
 
