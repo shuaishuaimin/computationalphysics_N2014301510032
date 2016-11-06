@@ -50,4 +50,6 @@ Repeat the previous problem, but give the two pendulums slightly different dampi
 
 ###代码如下所示
 
-[代码]（https://github.com/shuaishuaimin/computationalphysics_N2014301510032/blob/master/chengxv21.py）
+{代码}(https://github.com/shuaishuaimin/computationalphysics_N2014301510032/blob/master/chengxv21.py)
+
+![](https://github.com/Damonphysics/computationalphysics_N2014301020007/blob/master/figure_1-2.png?raw=true)
