@@ -1,7 +1,7 @@
 #陈有民
 ##天眷班
 ##2014301510032
-[作业1]()<br/>
+[作业1](https://github.com/shuaishuaimin/computationalphysics_N2014301510032/blob/master/%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A61.md)<br/>
 [作业2]()<br/>
 [作业3]()<br/>
 [作业4]()<br/>
