@@ -1,12 +1,12 @@
 #Exercise_10: The Solar System
 ##We begin with the simplest situation,a sun and a single planet,and investigate a few of the properties of this model solar system.
-According to Newton's law of gravitation the magnitude of the force is given by
+According to Newton's law of gravitation the magnitude of the force is given by<br/>
 ![](http://latex.codecogs.com/gif.latex?F_%7BG%7D%3D%5Cfrac%7BGM_%7BS%7DM_%7BE%7D%7D%7Br%5E%7B2%7D%7D)<br/>
-and we can obtain that:
-
-
-
-
+and we can obtain that:<br/>
+![](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cmathrm%7Bd%7D%20v_%7Bx%7D%7D%7B%5Cmathrm%7Bd%7D%20t%7D%3D-%5Cfrac%7BGM_%7BS%7DM_%7BE%7Dx%7D%7Br%5E%7B3%7D%7D)<br/>
+![](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cmathrm%7Bd%7Dx%7D%7B%5Cmathrm%7Bd%7D%20t%7D%3Dv_%7Bx%7D)<br/>
+![](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cmathrm%7Bd%7Dv_%7By%7D%7D%7B%5Cmathrm%7Bd%7D%20t%7D%3D-%5Cfrac%7BGM_%7Bs%7Dy%7D%7Br%5E%7B3%7D%7D)<br/>
+![](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cmathrm%7Bd%7Dy%7D%7B%5Cmathrm%7Bd%7D%20t%7D%3Dv_%7By%7D)<br/>
 and if we use astronomical units ,AU; and measure time in years, we find
 
 we next convert the equations of motion into difference equations in preparation for constructing a computational solution.We find
