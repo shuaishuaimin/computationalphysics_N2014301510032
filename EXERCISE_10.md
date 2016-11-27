@@ -1,20 +1,30 @@
 #Exercise_10: The Solar System
 ##We begin with the simplest situation,a sun and a single planet,and investigate a few of the properties of this model solar system.
-According to Newton's law of gravitation the magnitude of the force is given by<br/>
+##According to Newton's law of gravitation the magnitude of the force is given by<br/>
+
 ![](http://latex.codecogs.com/gif.latex?F_%7BG%7D%3D%5Cfrac%7BGM_%7BS%7DM_%7BE%7D%7D%7Br%5E%7B2%7D%7D)<br/>
-and we can obtain that:<br/>
+##and we can obtain that:<br/>
+
 ![](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cmathrm%7Bd%7D%20v_%7Bx%7D%7D%7B%5Cmathrm%7Bd%7D%20t%7D%3D-%5Cfrac%7BGM_%7BS%7DM_%7BE%7Dx%7D%7Br%5E%7B3%7D%7D)<br/>
+
 ![](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cmathrm%7Bd%7Dx%7D%7B%5Cmathrm%7Bd%7D%20t%7D%3Dv_%7Bx%7D)<br/>
+
 ![](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cmathrm%7Bd%7Dv_%7By%7D%7D%7B%5Cmathrm%7Bd%7D%20t%7D%3D-%5Cfrac%7BGM_%7Bs%7Dy%7D%7Br%5E%7B3%7D%7D)<br/>
+
 ![](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cmathrm%7Bd%7Dy%7D%7B%5Cmathrm%7Bd%7D%20t%7D%3Dv_%7By%7D)<br/>
-and if we use astronomical units ,AU; and measure time in years, we find
+##and if we use astronomical units ,AU; and measure time in years, we find
+![](http://latex.codecogs.com/gif.latex?GM_%7BS%7D%3Dv%5E%7B2%7Dr%3D4%5Cpi%20AU%5E%7B2%7D/yr%5E%7B2%7D)
+##we next convert the equations of motion into difference equations in preparation for constructing a computational solution.We find
 
-we next convert the equations of motion into difference equations in preparation for constructing a computational solution.We find
+![](http://latex.codecogs.com/gif.latex?v_%7Bx%2Ci&plus;1%7D%3Dv_%7Bx%2Ci%7D-%5Cfrac%7B4%5Cpi%20%5E%7B2%7Dx_%7Bi%7D%7D%7Br_%7Bi%7D%5E%7B3%7D%7D%5CDelta%20t)<br/>
 
+![](http://latex.codecogs.com/gif.latex?x_%7Bi&plus;1%7D%3Dx_%7Bi%7D&plus;v_%7Bx%2Ci&plus;1%7D%5CDelta%20t)<br/>
 
+![](http://latex.codecogs.com/gif.latex?v_%7By-i&plus;1%7D%3Dv_%7By%2Ci%7D-%5Cfrac%7B4%5Cpi%5E2y_%7Bi%7D%7D%7Br_%7Bi%7D%5E%7B3%7D%7D%5CDelta%20t)<br/>
 
+![](http://latex.codecogs.com/gif.latex?y_%7Bi&plus;1%7D%3Dy_%7Bi%7D&plus;v_%7By%2Ci&plus;1%7D%5CDelta%20t)<br/>
 
-and I imitate it by python ,and I gained that:
+##and I imitate it by python ,and I gained that:
 
 Earth Orbiting the Sun
 code1，as follows：
