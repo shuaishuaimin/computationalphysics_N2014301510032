@@ -25,87 +25,32 @@
 ![](http://latex.codecogs.com/gif.latex?y_%7Bi&plus;1%7D%3Dy_%7Bi%7D&plus;v_%7By%2Ci&plus;1%7D%5CDelta%20t)<br/>
 
 ##and I imitate it by python ,and I gained that:
+![](http://upload-images.jianshu.io/upload_images/3771733-3ed067606e468e7c.png?imageMogr2/auto-orient/strip%7CimageView2/2)
+##Earth Orbiting the Sun
 
-Earth Orbiting the Sun
-code1，as follows：
-#coding:utf-8
-import pylab as pl
-import numpy as np
-import math
-from mpl_toolkits.mplot3d import Axes3D
-import matplotlib.pyplot as plt
-from matplotlib import animation
+![code1](https://github.com/shuaishuaimin/computationalphysics_N2014301510032/blob/master/code1.py)
 
-class circle():
-    def __init__(self,x0=1,y0=0,t0=0,vx0=0,vy0=2*math.pi,dt0=0.001,total_time=10):
-        self.x=[x0]
-        self.y=[y0]
-        self.vx=[vx0]
-        self.vy=[vy0]
-        self.R=x0**2+y0**2
-        self.t=[t0]
-        self.dt=dt0
-        self.T=total_time
-    def run(self):
-        for i in range(int(self.T/self.dt)):
-            vx=self.vx[-1]-(4*math.pi**2*self.x[-1]/self.R**2)*self.dt
-            vy=self.vy[-1]-(4*math.pi**2*self.y[-1]/self.R**2)*self.dt
-            self.vx.append(vx)
-            self.vy.append(vy)
-            self.x.append(self.vx[-1] * self.dt + self.x[-1])
-            self.y.append(self.vy[-1] * self.dt + self.y[-1])
-    def show(self):
-        pl.plot(self.x, self.y, '-', label='tra')
-        pl.xlabel('x(AU)')
-        pl.ylabel('y(AU)')
-        pl.title('Earth orbiting the Sun')
-        pl.xlim(-1.2,1.2)
-        pl.ylim(-1.2,1.2)
-        pl.axis('equal')
-        pl.show()
-a=circle()
-a.run()
-a.show()
-we can use the animation of matplotlib to gain the cartoon,
+##we can use the animation of matplotlib to gain the cartoon,
 add follow codes:
+![CODE2](https://github.com/shuaishuaimin/computationalphysics_N2014301510032/blob/master/CODE2%2Cpy)
 
- def drawtrajectory(self):
-        fig=plt.figure()
-        ax = plt.axes(title=('Earth orbiting the Sun'),
-                      aspect='equal', autoscale_on=False,
-                      xlim=(-1.1, 1.1), ylim=(-1.1, 1.1),
-                      xlabel=('x'),ylabel=('y'))
-        line=ax.plot([],[],'b')
-        point=ax.plot([],[],'ro',markersize=10)
-        images=[]
-        def init():
-            line=ax.plot([],[],'b',markersize=8)
-            point=ax.plot([],[],'ro',markersize=10)
-            return line,point
-        def anmi(i):
-            ax.clear()
-            line=ax.plot(self.x[0:10*i],self.y[0:10*i],'b',markersize=8)
-            point=ax.plot(self.x[10*i-1:10*i],self.y[10*i-1:10*i],'ro',markersize=10)
-            return line,point
-        anmi=animation.FuncAnimation(fig,anmi,init_func=init,frames=10000,interval=1,
-                                     blit=False,repeat=False)
-we get follow gif
+##we get follow gif
+![](http://upload-images.jianshu.io/upload_images/3771733-96110bd661cebad6.png?imageMogr2/auto-orient/strip%7CimageView2/2)
+##Earth Orbiting the Sun
+##If we consider the reduced mass
+![](http://latex.codecogs.com/gif.latex?%5Cmu%20%3D%5Cfrac%7Bm_%7B1%7Dm_%7B2%7D%7D%7Bm_%7B1%7D&plus;m_%7B2%7D%7D)<>br/
+##The orbital trajectory for a body of reduced mass is given in polar coordinates by
+![](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cmathrm%7Bd%5E%7B2%7D%7Dt%20%7D%7B%5Cmathrm%7Bd%7D%20t%5E%7B2%7D%7D%28%5Cfrac%7B1%7D%7Br%7D%29&plus;%5Cfrac%7B1%7D%7Br%7D%3D-%5Cfrac%7B%5Cmu%20r%5E%7B2%7D%7D%7BL%5E%7B2%7D%7DF%28r%29)
 
-Earth Orbiting the Sun
-If we consider the reduced mass
+##consider
 
-The orbital trajectory for a body of reduced mass is given in polar coordinates by
+![](http://latex.codecogs.com/gif.latex?%5Ctheta%20_%7B0%7D%3D0)
 
-
-consider
+##we have
 
 
 
-we have
-
-
-
-so
+##so
 
 
 
