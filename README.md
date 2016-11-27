@@ -9,9 +9,9 @@
 [Exercise_05]()  
 [Exercise_06](https://github.com/shuaishuaimin/computationalphysics_N2014301510032/blob/master/EXERCISE_06.md)  
 [Exercise_07](https://github.com/shuaishuaimin/computationalphysics_N2014301510032/blob/master/EXERCISE_07.md) 
-[Exercise_08]
-[Exercise_09]
-[Exercise_10]
-[Exercise_11]
-[Exercise_12]
-[Exercise_13]
+[Exercise_08]()
+[Exercise_09]()
+[Exercise_10]()
+[Exercise_11]()
+[Exercise_12]()
+[Exercise_13]()
