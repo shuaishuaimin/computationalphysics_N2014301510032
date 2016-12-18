@@ -14,4 +14,4 @@
 [Exercise_10](https://github.com/shuaishuaimin/computationalphysics_N2014301510032/blob/master/EXERCISE_10.md)<br/>
 [Exercise_11]()<br/>
 [Exercise_12]()<br/>
-[Exercise_13]()<br/>
+[Exercise_13](https://github.com/shuaishuaimin/computationalphysics_N2014301510032/blob/master/EXCRCISE13.md)<br/>
