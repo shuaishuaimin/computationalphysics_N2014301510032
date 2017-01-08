@@ -15,4 +15,4 @@
 [Exercise_11]()<br/>
 [Exercise_12]()<br/>
 [Exercise_13](https://github.com/shuaishuaimin/computationalphysics_N2014301510032/blob/master/EXCRCISE13.md)<br/>
-[Exercise 14 final]()
+[Exercise 14 final](https://github.com/shuaishuaimin/computationalphysics_N2014301510032/blob/master/EXERCISE_FINAL14.md)
