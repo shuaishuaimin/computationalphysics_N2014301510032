@@ -15,10 +15,10 @@ As a random model, how to generate a series of random number is very important. 
 We can easily find that the squre distance is directly proportional to the time, that is exactly the diffusion theory tell us. In this progrem, I make 500 sample to do this experimental, that is the statistic average od the distance. Well, now we can say the diffusion is actually the random walk of the part icles. The driven force of the motions is the entrapy.
 ·Second, a one-dimensional walk with different probability(0.25 go left and 0.75 go right) are also simulated. And this is the result: 
 ![](https://www.zybuluo.com/feipai11/note/404621)
-WOW! The realtion is diffrernt at all: the distance is directly proportional to the time, and the square distance is quadratic to the time! with the probability different in different direction, we say that there is a external field so particles have a mean velocity in a direction, this model can explain the motions of particles in a external field(such as election in electric field) with resistance. Actually this is not an diffusion at all. The driven force of the motions is the external field.
+It is amazing! The realtion is diffrernt at all: the distance is directly proportional to the time, and the square distance is quadratic to the time! with the probability different in different direction, we say that there is a external field so particles have a mean velocity in a direction, this model can explain the motions of particles in a external field(such as election in electric field) with resistance. Actually this is not an diffusion at all. The driven force of the motions is the external field.
 ##The conclusion:
 
-This pragram modeled the motion of a drunkard, and gained the relation between the random walk model and the diffusion. And we find that electric current can be explained by the random walk model with different probability in different directions.
+As a result,this pragram modeled the motion of a drunkard, and gained the relation between the random walk model and the diffusion. And we find that electric current can be explained by the random walk model with different probability in different directions.
 
 
 ##[program](https://github.com/shuaishuaimin/computationalphysics_N2014301510032/blob/master/program.py)
