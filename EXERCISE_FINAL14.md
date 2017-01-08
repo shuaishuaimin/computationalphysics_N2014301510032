@@ -11,10 +11,10 @@ As a random model, how to generate a series of random number is very important. 
 ##The result:
 
 ·first, we have learned that diffusion can be explained by randon walk model no matter it is a atom diffusion or electron and ion diffusion. We have a gineral conclusion that  ,where the x is the average farest distance an atom diffused at time t. So a one-dimensional random walk have been done,and this is the result: 
-![](https://www.zybuluo.com/feipai11/note/404621)
-We can easily find that the squre distance is directly proportional to the time, that is exactly the diffusion theory tell us. In this progrem, I make 500 sample to do this experimental, that is the statistic average od the distance. Well, now we can say the diffusion is actually the random walk of the part icles. The driven force of the motions is the entrapy.
+![](https://raw.githubusercontent.com/feipai11/computationalphysics_N2013301020066/master/chapter7/figure_1.png)
+We can easily find that the squre distance is directly proportional to the time, that is exactly the diffusion theory tell us. In this progrem, I make 500 sample to do this experimental, that is the statistic average od the distance. Well, now we can say the diffusion is actually the random walk of the part icles. The driven force of the motions is the entrapy.<br/>
 ·Second, a one-dimensional walk with different probability(0.25 go left and 0.75 go right) are also simulated. And this is the result: 
-![](https://www.zybuluo.com/feipai11/note/404621)
+![](https://raw.githubusercontent.com/feipai11/computationalphysics_N2013301020066/master/chapter7/figure_2.png)
 It is amazing! The realtion is diffrernt at all: the distance is directly proportional to the time, and the square distance is quadratic to the time! with the probability different in different direction, we say that there is a external field so particles have a mean velocity in a direction, this model can explain the motions of particles in a external field(such as election in electric field) with resistance. Actually this is not an diffusion at all. The driven force of the motions is the external field.
 ##The conclusion:
 
